@@ -51,7 +51,7 @@ export default function Navbar() {
     } else {
       dispatch(UserLogin(false));
     }
-  }, []);
+  });
 
   return (
     <Box sx={{ flexGrow: 1 }}>

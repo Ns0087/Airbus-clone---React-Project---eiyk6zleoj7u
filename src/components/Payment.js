@@ -15,7 +15,7 @@ export default function Payment() {
     if (!localStorage.getItem("email")) {
       navigate("/login");
     }
-  }, []);
+  });
 
   return (
     <Stack
